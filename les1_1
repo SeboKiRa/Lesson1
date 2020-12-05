@@ -1,0 +1,10 @@
+a = 10
+b = 15
+print("Переменные a и b - ", a, b)
+string1 = input("Введите первую строку ")
+number1 = input("Введите первое число ")
+number1 = int(number1)
+string2 = input("Введите вторую строку ")
+number2 = input("Введите второе число ")
+number2 = int(number2)
+print("Введеные значения - %10s %5d %10s %5d" % (string1, number1, string2, number2))
